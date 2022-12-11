@@ -1,0 +1,32 @@
+{
+  "user": [
+    { "id" : 1 , "pseudo" : "Hugo" , "email" : "Hugo@yahoo.fr" , "password" : "123456" ,
+      "urlImgProfil" : "https://images.pexels.com/photos/6652928/pexels-photo-6652928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
+    { "id" : 2 , "pseudo" : "Anna" , "email" : "Anna@yahoo.fr" , "password" : "123456" ,
+      "urlImgProfil" : "https://images.pexels.com/photos/6205523/pexels-photo-6205523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" }
+  ],
+  "article": [
+    {
+      "id" : 1 ,
+      "content" : "lorem ipsum" ,
+      "urlImgArticle" : "https://images.pexels.com/photos/516863/pexels-photo-516863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "like" : 2,
+      "pseudo" : "Hugo",
+      "date" : 1649277945051,
+      "commentaires": [
+        {
+          "id": 1 ,
+          "content" : "lorem ipsum",
+          "pseudo" : "Anna" ,
+          "dt" : 1649277945051
+        },
+        {
+          "id": 2 ,
+          "content" : "lorem ipsum",
+          "pseudo" : "Anna" ,
+          "dt" : 1649277945051
+        }
+      ]
+    }
+  ]
+}
